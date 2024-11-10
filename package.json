@@ -1,13 +1,13 @@
 {
-  "homepage": "https://michael23magdy.github.io/Michael_Magdy_Portfolio/",
+  "homepage": "https://michael23magdy.github.io/Michael_Magdy_Portfolio",
   "name": "michael-magdy-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
