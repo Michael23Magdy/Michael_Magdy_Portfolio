@@ -17,7 +17,8 @@ export function Sidebar(){
             </div>
             
             <ul className='socialMedia'>
-                <li><a href='#' className='linkedin'>
+                <li><a href="https://www.linkedin.com/in/michael-magdy" target="_blank" rel="noopener noreferrer"
+                        className='linkedin'>
                     <FontAwesomeIcon icon={faLinkedin}/>
                     <span>LinkedIn</span>
                     <FontAwesomeIcon icon={faAngleRight} />
