@@ -17,28 +17,32 @@ export function Sidebar(){
             </div>
             
             <ul className='socialMedia'>
-                <li><a href="https://www.linkedin.com/in/michael-magdy" target="_blank" rel="noopener noreferrer"
+                <li><a href="https://www.linkedin.com/in/michael-magdy-96432b1a2" target="_blank" rel="noopener noreferrer"
                         className='linkedin'>
                     <FontAwesomeIcon icon={faLinkedin}/>
                     <span>LinkedIn</span>
                     <FontAwesomeIcon icon={faAngleRight} />
                 </a></li>
-                <li><a href='#' className='whatsapp'>
+                <li><a href='https://wa.me/01220687286' target="_blank" rel="noopener noreferrer"
+                        className='whatsapp'>
                     <FontAwesomeIcon icon={faWhatsapp}/> 
                     <span>Whatsapp </span>
                     <FontAwesomeIcon icon={faAngleRight} />
                 </a></li>
-                <li><a href='#' className='email'>
+                <li><a href='mailto:michaelmagdymagdy@gamil.com' target="_blank" rel="noopener noreferrer"
+                        className='email'>
                     <FontAwesomeIcon icon={faGoogle}/> 
                     <span>Email</span>
                     <FontAwesomeIcon icon={faAngleRight} />
                 </a></li>
-                <li><a href='#' className='facebook'>
+                <li><a href='https://www.facebook.com/michael.magdy.77377' target="_blank" rel="noopener noreferrer"
+                        className='facebook'>
                     <FontAwesomeIcon icon={faFacebook}/> 
                     <span>Facebook</span>
                     <FontAwesomeIcon icon={faAngleRight} />
                 </a></li>
-                <li><a href='#' className='github'>
+                <li><a href='https://github.com/Michael23Magdy' target="_blank" rel="noopener noreferrer"
+                        className='github'>
                     <FontAwesomeIcon icon={faGithub}/> 
                     <span>Github</span>
                     <FontAwesomeIcon icon={faAngleRight} />
