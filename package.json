@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://michael23magdy.github.io/Michael_Magdy_Portfolio",
+  "homepage": "https://michael23magdy.github.io/Michael_Magdy_Portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
