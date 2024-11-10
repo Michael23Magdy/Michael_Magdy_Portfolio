@@ -1,16 +1,16 @@
 {
+  "homepage": "https://michael23magdy.github.io/Michael_Magdy_Portfolio/",
   "name": "michael-magdy-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://michael23magdy.github.io/Michael_Magdy_Portfolio/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
