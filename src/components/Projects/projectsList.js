@@ -2,6 +2,7 @@ import theCozyCorner from '../../assets/theCozyCorner.jpg';
 import dotsBox from '../../assets/DotsBox.jpg';
 import dashlytic from '../../assets/dashlytic.jpg';
 import leon from '../../assets/leon.jpg';
+import Mlogo from '../../assets/MichaelLogo.jpg';
 
 export const projectsList = [
     {
@@ -24,6 +25,13 @@ export const projectsList = [
         description: "A social media dashboard developed as part of the DEPI scholarship, featuring user authentication, profile management, and posts. Built using JavaScript, Node.js, and MongoDB.",
         demo: "https://social-media-dashboard-pi-seven.vercel.app/sign",
         repo: "https://github.com/islammohmed/SocialMediaApp-FrontEnd.git",
+    },
+    {
+        img: Mlogo,
+        name: "Michael Magdy",
+        description: "This Portfolio ... made using Html, Css and React.",
+        demo: "https://michael23magdy.github.io/Michael_Magdy_Portfolio/",
+        repo: "https://github.com/Michael23Magdy/Michael_Magdy_Portfolio.git",
     },
     {
         img: leon,
